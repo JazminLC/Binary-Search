@@ -25,9 +25,9 @@ int BinarySearch(int arr[],int n,int b){
 		}
 		if (arr[m]==b){
 			return m;
-
 		}
-	}else{
+	}
+	else{
 		return -1;
 	}
 
